@@ -4,7 +4,7 @@ def guess_number_game():
     # 生成1-100之间的随机数
     secret_number = random.randint(1, 100)
     attempts = 0
-    
+    print("太大了！再试一次。")
     print("太大了！再试一次。")
     while attempts < 10:
         try:
