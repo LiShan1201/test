@@ -5,7 +5,7 @@ def guess_number_game():
     secret_number = random.randint(1, 100)
     attempts = 0
     
-    
+    print("太大了！再试一次。")
     while attempts < 10:
         try:
             guess = int(input("\n请输入你猜的数字: "))
