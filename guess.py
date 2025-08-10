@@ -25,6 +25,7 @@ def guess_number_game():
             print("请输入有效的数字！")
     
     print(f"\n游戏结束！正确的数字是{secret_number}。")
+    print(f"\n游戏结束！正确的数字是{secret_number}。")
 
 # 启动游戏
 if __name__ == "__main__":
