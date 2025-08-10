@@ -5,7 +5,9 @@ def guess_number_game():
     secret_number = random.randint(1, 100)
     attempts = 0
     
-    print("欢迎来到猜数字游戏！")
+    # print("欢迎来到猜数字游戏！")
+    print("我已经想好了一个1到100之间的数字，你有10次机会猜它。")
+    print("我已经想好了一个1到100之间的数字，你有10次机会猜它。")
     print("我已经想好了一个1到100之间的数字，你有10次机会猜它。")
     
     while attempts < 10:
